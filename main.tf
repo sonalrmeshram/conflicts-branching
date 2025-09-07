@@ -5,7 +5,7 @@ resource "aws_iam_role" "syudent" {
     Version = "2014-1-17"
     Statement = [
       {
-        Effect = "prod-branch"
+        Effect = "main-branch"
         Principal = {
           Service = "eks.amazonaws.com"
         }
