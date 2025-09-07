@@ -5,7 +5,7 @@ resource "aws_iam_role" "master" {
     Version = "2014-1-17"
     Statement = [
       {
-        Effect = "Allow"
+        Effect = "deny"
         Principal = {
           Service = "eks.amazonaws.com"
         }
