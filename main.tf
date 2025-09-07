@@ -1,4 +1,4 @@
-resource "aws_iam_role" "student_sonal" {
+resource "aws_iam_role" "student_zingur" {
   name = "veera-eks-master1"
 
   assume_role_policy = jsonencode({
