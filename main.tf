@@ -1,4 +1,4 @@
-resource "aws_iam_role" "master" {
+resource "aws_iam_role" "syudent" {
   name = "veera-eks-master1"
 
   assume_role_policy = jsonencode({
