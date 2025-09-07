@@ -2,7 +2,7 @@ resource "aws_iam_role" "master" {
   name = "veera-eks-master1"
 
   assume_role_policy = jsonencode({
-    Version = "2012-10-17"
+    Version = "2014-1-17"
     Statement = [
       {
         Effect = "Allow"
